@@ -1,0 +1,45 @@
+{
+  "target": "smoking",
+  "id": "id",
+  "features": [
+    "gender",
+    "age",
+    "height_cm",
+    "weight_kg",
+    "waist_cm",
+    "eyesight_left",
+    "eyesight_right",
+    "hearing_left",
+    "hearing_right",
+    "systolic",
+    "relaxation",
+    "fasting_blood_sugar",
+    "cholesterol",
+    "triglyceride",
+    "hdl",
+    "ldl",
+    "hemoglobin",
+    "urine_protein",
+    "serum_creatinine",
+    "ast",
+    "alt",
+    "gtp",
+    "dental_caries",
+    "tartar"
+  ],
+  "binarias": [
+    "gender",
+    "tartar",
+    "dental_caries"
+  ],
+  "cols_log": [
+    "fasting_blood_sugar",
+    "triglyceride",
+    "hdl",
+    "ldl",
+    "ast",
+    "alt",
+    "gtp",
+    "serum_creatinine"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "modelo": "XGBoost",
+  "config": "{\"colsample_bytree\": 0.7554, \"gamma\": 0.8348, \"learning_rate\": 0.0195, \"max_depth\": 4, \"min_child_weight\": 10, \"n_estimators\": 600, \"reg_lambda\": 0.3078, \"subsample\": 0.6673}",
+  "umbral": 0.49,
+  "features": [
+    "gender",
+    "age",
+    "height_cm",
+    "weight_kg",
+    "waist_cm",
+    "eyesight_left",
+    "eyesight_right",
+    "hearing_left",
+    "hearing_right",
+    "systolic",
+    "relaxation",
+    "fasting_blood_sugar",
+    "cholesterol",
+    "triglyceride",
+    "hdl",
+    "ldl",
+    "hemoglobin",
+    "urine_protein",
+    "serum_creatinine",
+    "ast",
+    "alt",
+    "gtp",
+    "dental_caries",
+    "tartar"
+  ],
+  "f1_cv": 0.7179,
+  "f1_oof_con_umbral": 0.7178
+}

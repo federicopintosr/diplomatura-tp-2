@@ -1,0 +1,14 @@
+{
+  "modelo": "XGBoost",
+  "config": "{\"colsample_bytree\": 0.7554, \"gamma\": 0.8348, \"learning_rate\": 0.0195, \"max_depth\": 4, \"min_child_weight\": 10, \"n_estimators\": 600, \"reg_lambda\": 0.3078, \"subsample\": 0.6673}",
+  "umbral": 0.49,
+  "f1_cv": 0.7179,
+  "f1_train": 0.7324,
+  "f1_validacion": 0.7153,
+  "f1_validacion_ic95": [
+    0.705,
+    0.7265
+  ],
+  "roc_auc_validacion": 0.8431,
+  "f1_entrega_estimado": 0.7365
+}
